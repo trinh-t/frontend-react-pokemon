@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import PokeCard from "./components/pokeCard/PokeCard";
+import axios from 'axios';
+
 
 function App() {
-  return (
-    <div>
-      Begin hier met de opdracht!
-    </div>
+
+    return (
+    <>
+        <div>
+            <PokeCard />
+        </div>
+    </>
+
   );
 }
 
